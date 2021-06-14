@@ -1,4 +1,5 @@
 import React, {Component, useState} from 'react'
+import Board from "./Board"
 
 function Entry () {
     
@@ -9,17 +10,25 @@ function Entry () {
 
 
     function start () {
-        alert(email)
-        alert(name)
-        alert(student)
-        alert(age)
 
+        const user = {
+            email: {email},
+            name: {name},
+            student: {student},
+            age: {age},
+
+        }
+
+        let form = document.getElementById("form").innerHTML = ""
+
+
+        
 
     }
 
         
     return (
-        <form onSubmit={(e) => {e.preventDefault()}}>
+        <form id="form" onSubmit={(e) => {e.preventDefault()}}>
             <fieldset>
                 <legend><h5>Participant Information</h5></legend>
                 <br />
@@ -43,7 +52,7 @@ function Entry () {
                 </select>
 
                 <br />
-                <input onClick={start} type="submit" value="submit" required />
+                <input onClick={start} type="submit" value="submit" />
                 <br />
             </fieldset>
         </form>
