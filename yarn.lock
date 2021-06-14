@@ -3155,7 +3155,7 @@ chess.js@^0.12.0:
 
 chessboardjsx@^2.4.7:
   version "2.4.7"
-  resolved "https://registry.npmjs.org/chessboardjsx/-/chessboardjsx-2.4.7.tgz"
+  resolved "https://registry.yarnpkg.com/chessboardjsx/-/chessboardjsx-2.4.7.tgz#ae63ecd4b3bd266ce56735d5018b87d770453bf6"
   integrity sha512-cJN06EWkrRPSQhOFEbw16zL5D9N6jYs29N2gG0IzSDhDpzWyHaTfUcLq/7e0moZ5Pr7m7vbhEyKuw8/lV22YOA==
   dependencies:
     deep-diff "1.0.1"
